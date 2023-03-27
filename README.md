@@ -5,6 +5,7 @@ Pytest, Python dilinde yazılmış bir test çerçevesidir. Test senaryolarını
 Pytest decorator'ları, test senaryolarının davranışını ve özelliklerini değiştirmek için kullanılır. Pytest'in özelliklerinden biri, decorator'ların kullanımıdır. Decorator'lar, test fonksiyonlarının özelliklerini değiştirmek veya genişletmek için kullanılabilir. Bu, testlerin daha okunaklı ve anlaşılır hale gelmesini sağlar.
 
 Pytest decorator'ları şunları içerebilir:
+
 @pytest.fixture => Test senaryolarında kullanılacak tekrar eden işlemleri tanımlamak için kullanılır. Örneğin, bir veritabanına bağlanmak veya bir dosya okumak gibi.
 
 @pytest.mark.parametrize => Test senaryolarının farklı parametrelerde çalıştırılmasını sağlamak için kullanılır.
